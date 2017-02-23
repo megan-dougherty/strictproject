@@ -1,0 +1,218 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	height: 20px;
+	background-color: #f6f9f9;
+}
+
+nav .logo {
+	padding-left: 60px;
+	padding-top: 30px;
+	margin-bottom: 0;	
+}
+
+.topSection {
+	margin-top: 0;
+	background-image: url(../images/bg1.png);
+	height: 800px;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.topSection h1 {
+	color: white;
+	text-align: center;
+	font-size: 110px;
+	padding-top: 150px;
+	font-weight: 450;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+
+.topSection p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border-top : 1px solid #15a4fa;
+	width: 43%;
+	margin-left: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.topSection button {
+	border-top: 1px solid #15a4fa;
+	border-left: 1px solid #15a4fa;
+	border-bottom: none;
+	border-right: none;
+	background-color: transparent;
+	text-align: center;
+	height: 45px;
+	width: 140px;
+	margin-left: 45%;
+	color: white;
+}
+
+/*chevron*/
+
+.midSection {
+	background-color: #f6f9f9;
+	padding-top: 40px;
+	text-align: center;
+	height: 300px;
+}
+
+.midSection h2 {
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.midSection p {
+	text-align: center;
+	width: 60% auto;
+	padding-left: 15%;
+	padding-right: 15%;
+	line-height: 30px;
+	color: #575555;
+}
+
+.bottomSection {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 300px;
+	text-align: center;
+}
+
+.bottomSection .box  {
+	display: inline-block;
+	width: 33%;
+} 
+
+.bottomSection .box h3 {
+	padding-top: 90px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.bottomSection .box p {
+	color: #575555;
+	text-align: center;
+	padding-top: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.showcase {
+	background-color: #f6f9f9;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 5px;
+}
+
+.showcase h4 {
+	font-weight: 550;
+	margin-bottom: 1px;
+}
+
+.showcase p {
+	font-size: 18px;
+	padding-top: 3px;
+	color: #575555;
+}
+
+.showcase .topRow {
+	width: 100%;
+}
+
+.showcase .topRow img {
+	width: 25%;
+	padding-right: 22px;
+	padding-bottom: 11px;
+}
+
+.showcase .bottomRow img {
+	padding-top: 11px;
+	width: 25%;
+	padding-right: 22px;
+	padding-bottom: 60px;
+}
+
+.contact {
+	background-image: url(../images/bg2.png);
+	background-repeat: none;
+	height: 600px;
+	width: 100%;
+}
+
+.contact h5 {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	padding-top: 100px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	}
+
+.contact p {
+	text-align: center;
+	font-size: 18px;
+	color: grey;
+	font-weight: 500;
+}
+
+form {
+	text-align: center;
+
+} 
+
+form > input { 
+	border: 1px solid white;
+	background-color: transparent;
+	height: 30px;
+	width: 25%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+form > textarea {
+	background-color: transparent;
+	border: 1px solid white;
+	text-align: center;
+	padding-left: 100px;
+	margin-left: 270px;
+}
+
+form span {
+	color: white;
+	text-align: center;
+}
+
+
+footer {
+	height: 80px;
+}
+
+footer p {
+	font-size: 20px;
+	padding-left: 150px;
+	padding-top: 25px;
+
+
+
+
+
+
+
+
+
+
+
+
