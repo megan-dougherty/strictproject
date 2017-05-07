@@ -20,9 +20,10 @@ nav .logo {
 .topSection {
 	margin-top: 0;
 	background-image: url(../images/bg1.png);
+	background-position: cover;
 	height: 800px;
 	width: 100%;
-	margin-bottom: 0;
+	margin: 0 auto;
 }
 
 .topSection h1 {
@@ -38,7 +39,7 @@ nav .logo {
 .topSection p {
 	text-align: center;
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 	border-top : 1px solid #15a4fa;
 	width: 43%;
 	margin-left: 30%;
@@ -47,16 +48,13 @@ nav .logo {
 }
 
 .topSection button {
-	border-top: 1px solid #15a4fa;
-	border-left: 1px solid #15a4fa;
-	border-bottom: none;
-	border-right: none;
+	border: 1px solid #15a4fa;
 	background-color: transparent;
-	text-align: center;
 	height: 45px;
 	width: 140px;
-	margin-left: 45%;
+	margin-left: 47%;
 	color: white;
+	cursor: pointer;
 }
 
 /*chevron*/
@@ -87,6 +85,7 @@ nav .logo {
 	margin-bottom: 0;
 	height: 300px;
 	text-align: center;
+	background-color: #93c4e6;
 }
 
 .bottomSection .box  {
@@ -116,13 +115,15 @@ nav .logo {
 }
 
 .showcase h4 {
+	text-align: center;
 	font-weight: 550;
-	margin-bottom: 1px;
+	margin-bottom: 15px;
 }
 
 .showcase p {
 	font-size: 18px;
 	padding-top: 3px;
+	margin-left: 0;
 	color: #575555;
 }
 
@@ -140,7 +141,7 @@ nav .logo {
 	padding-top: 11px;
 	width: 25%;
 	padding-right: 22px;
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 }
 
 .contact {
@@ -156,10 +157,11 @@ nav .logo {
 	font-size: 50px;
 	padding-top: 100px;
 	font-weight: 400;
-	margin-bottom: 30px;
+	margin-bottom: 5px;
 	}
 
 .contact p {
+	margin-top: 0;
 	text-align: center;
 	font-size: 18px;
 	color: grey;
@@ -170,6 +172,9 @@ form {
 	text-align: center;
 
 } 
+form input {
+	color: white;
+}
 
 form > input { 
 	border: 1px solid white;
@@ -187,7 +192,13 @@ form > textarea {
 	border: 1px solid white;
 	text-align: center;
 	padding-left: 100px;
-	margin-left: 270px;
+	
+}
+
+form button {
+	margin-top: 15px;
+	padding: 7px;
+	cursor: pointer;
 }
 
 form span {
